@@ -322,10 +322,14 @@ body {
         color: var(--color-dark)
     }
 
+    /* 
     .contact__item:hover svg {
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg)
+    } */
+    .contact__item-text:hover {
+        opacity: 0.8;
     }
 
     .footer__item:hover {
@@ -1107,7 +1111,8 @@ body {
     flex-direction: column !important;
     align-items: flex-start !important;
     font-size: 18px;
-    color: var(--color-dark)
+    color: var(--color-dark);
+    transition: opacity 300ms linear;
 }
 
 .contact__item a {
