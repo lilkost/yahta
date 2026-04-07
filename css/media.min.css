@@ -360,4 +360,7 @@
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
+    .gallery__item img{
+        filter: grayscale(0%);
+    }
 }

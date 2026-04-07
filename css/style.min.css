@@ -573,7 +573,7 @@ body {
 .title {
     font-size: 48px;
     /* color: var(--color-dark); */
-    color: #000;
+    color: #1c1c1c;
     text-transform: uppercase;
     font-weight: 600
 }
@@ -682,7 +682,7 @@ body {
 .about__info-text {
     margin-top: auto;
     margin-bottom: 0;
-    max-width: 55%;
+    max-width: 65%;
     width: 100%;
     color: #fff;
     font-size: 20px;
@@ -894,6 +894,7 @@ body {
 
 .card__text {
     margin-bottom: 20px;
+    color: #222222;
 }
 
 .card__price {
@@ -1022,7 +1023,7 @@ body {
     transition: opacity var(--t), height var(--t), -webkit-transform var(--t);
     transition: opacity var(--t), transform var(--t), height var(--t);
     transition: opacity var(--t), transform var(--t), height var(--t), -webkit-transform var(--t);
-    color: #000;
+    color: #222222;
 }
 
 .contact__title {
